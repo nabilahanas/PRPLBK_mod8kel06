@@ -1,0 +1,11 @@
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\bin\Debug\net7.0\TempConvComp.deps.json
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\bin\Debug\net7.0\TempConvComp.dll
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\bin\Debug\net7.0\TempConvComp.pdb
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.AssemblyInfoInputs.cache
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.AssemblyInfo.cs
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.csproj.CoreCompileInputs.cache
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.dll
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\refint\TempConvComp.dll
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\TempConvComp.pdb
+C:\Users\mizun\source\repos\TempConvComp\TempConvComp\obj\Debug\net7.0\ref\TempConvComp.dll
