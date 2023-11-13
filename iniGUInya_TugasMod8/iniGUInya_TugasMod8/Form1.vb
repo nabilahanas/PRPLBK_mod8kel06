@@ -12,6 +12,10 @@
             MessageBox.Show("Mohon masukkan bilangan bulat", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return
         End If
+        If ComboBox1.SelectedItem.ToString() = ComboBox2.SelectedItem.ToString() Then
+            MessageBox.Show("Pilih opsi yang berbeda untuk konversi", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Return
+        End If
 
         Dim inputTemp As Double = CDbl(TextBox1.Text)
         Dim convertedTemp As Double = ConvertTemperature(ComboBox1.SelectedItem.ToString(), ComboBox2.SelectedItem.ToString(), inputTemp)
@@ -62,7 +66,13 @@
     End Function
 
     Private Sub txtInput_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress
-        If (Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> "-" AndAlso e.KeyChar <> "," AndAlso e.KeyChar <> ControlChars.Back) Then
+        If (Not Char.IsDigit(e.KeyChar) AndAlso e.KeyChar <> "-" AndAlso e.KeyChar <> "." AndAlso e.KeyChar <> ControlChars.Back) Then
+            e.Handled = True
+        End If
+        If (e.KeyChar = "."c AndAlso (TryCast(sender, TextBox).Text.Contains("."))) Then
+            e.Handled = True
+        End If
+        If (e.KeyChar = "-"c AndAlso TryCast(sender, TextBox).SelectionStart <> 0) Then
             e.Handled = True
         End If
     End Sub
